@@ -103,6 +103,11 @@ public class ScalariformMojo extends AbstractMojo {
     /**
      *  @parameter default-value=false
      */
+    protected boolean spacesAroundMultiImports;
+
+    /**
+     *  @parameter default-value=false
+     */
     protected boolean spaceBeforeColon;
 
     /**
@@ -139,6 +144,7 @@ public class ScalariformMojo extends AbstractMojo {
                              preserveDanglingCloseParenthesis,
                              preserveSpaceBeforeArguments,
                              rewriteArrowSymbols,
+                             spacesAroundMultiImports,
                              spaceBeforeColon,
                              spaceInsideBrackets,
                              spaceInsideParentheses,

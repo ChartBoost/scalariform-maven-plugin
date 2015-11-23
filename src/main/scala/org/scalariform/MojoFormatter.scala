@@ -58,6 +58,7 @@ object MojoFormatter {
              preserveDanglingCloseParenthesis: Boolean,
              preserveSpaceBeforeArguments: Boolean,
              rewriteArrowSymbols: Boolean,
+             spacesAroundMultiImports: Boolean,
              spaceBeforeColon: Boolean,
              spaceInsideBrackets: Boolean,
              spaceInsideParentheses: Boolean,
@@ -80,6 +81,7 @@ object MojoFormatter {
       .setPreference(PreserveDanglingCloseParenthesis, preserveDanglingCloseParenthesis)
       .setPreference(PreserveSpaceBeforeArguments, preserveSpaceBeforeArguments)
       .setPreference(RewriteArrowSymbols, rewriteArrowSymbols)
+      .setPreference(SpacesAroundMultiImports, spacesAroundMultiImports)
       .setPreference(SpaceBeforeColon, spaceBeforeColon)
       .setPreference(SpaceInsideParentheses, spaceInsideParentheses)
       .setPreference(SpaceInsideBrackets, spaceInsideBrackets)
